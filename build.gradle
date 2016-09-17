@@ -22,6 +22,9 @@ repositories {
 dependencies {
   compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
   compile 'org.processing:core:3.1.2'
+  compile 'org.jogamp.jogl:jogl:2.3.2'
+  compile files('lib/jogl-all-natives-macosx-universal.jar')
+
   testCompile 'junit:junit:4.11'
   testCompile "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
 }
