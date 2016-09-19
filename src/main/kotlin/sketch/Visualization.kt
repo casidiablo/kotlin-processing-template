@@ -5,7 +5,7 @@ import processing.core.PApplet
 open class Visualization : PApplet() {
 
     override fun settings() {
-        size(400, 400)
+        size(400, 400, P3D)
         pixelDensity(displayDensity())
     }
 
